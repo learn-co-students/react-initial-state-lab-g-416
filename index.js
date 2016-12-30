@@ -6,7 +6,7 @@ const Bomb = require('./components/Bomb');
 
 ReactDOM.render(
   <div>
-    <ImageSlider></ImageSlider>
+    <ImageSlider />
     <Bomb initialCount={120} />
   </div>,
   document.getElementById('main')
